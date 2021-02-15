@@ -1,0 +1,141 @@
+name: workerf
+description: Manoexperta worker app
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+    # logic packages
+  flutter_redux: ^0.6.0
+  redux_api_middleware: ^0.2.1
+  redux_thunk: ^0.3.0
+  shared_preferences: 0.5.7+3
+  http: 0.12.1
+  crypto: any
+  event: 1.1.4
+  adhara_socket_io: ^0.4.2+1
+  url_launcher: ^5.7.1
+  image: ^2.1.18
+  upgrader: ^2.6.1
+    # ui packages
+  badges: ^1.1.1
+  expandable: ^4.1.4
+  bubble:
+  flutter_parsed_text: ^1.2.4
+  flutter_masked_text: ^0.8.0
+  flutter_spinkit: ^4.1.2
+  flutter_custom_dialog: ^1.0.20
+  font_awesome_flutter: ^8.8.1
+  marquee_widget: ^0.8.0
+  countdown_flutter: ^0.1.2
+  flutter_shapes: ^0.2.1
+  webview_flutter: 0.3.22+1
+  fluttertoast: 4.0.1
+  image_picker: 0.6.7+2
+  image_cropper: ^1.2.3
+    #  flutter_launcher_icons: 0.7.5
+  flutter_launcher_name: 0.0.1
+    # firebase packages
+  firebase_core: ^0.5.0
+  cloud_firestore: ^0.14.0+2
+  firebase_storage: ^4.0.0
+  firebase_analytics: ^6.0.0
+  firebase_messaging: ^7.0.0
+  geoflutterfire: ^2.2.1
+  google_maps_flutter: 0.5.28+1
+  geolocator: ^5.3.2+2
+  geocoder: ^0.2.1
+  flutter_google_places: ^0.2.5
+  location: ^3.0.0
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^0.1.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    # fonts
+    - assets/font/Poppins-Regular.ttf
+    - assets/font/SF-Pro-Display-Regular.otf
+    # images
+    - assets/img/camera.png
+    - assets/img/icon.jpg
+    - assets/img/id.png
+    - assets/img/logo.png
+    - assets/img/logo-brand.png
+    - assets/img/logo-brand-blue.png
+    - assets/img/spinner.gif
+    - assets/img/spinner-sm.gif
+    - assets/img/unknown.png
+    - assets/img/worker.png
+    - assets/img/notfound.png
+    - assets/img/handshake.png
+    - assets/img/nopayment.png
+    - assets/img/nopackage.png
+    - assets/img/noprevwork.png
+    - assets/img/forgetpassword.png
+    - assets/img/refer.png
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/font/Poppins-Regular.ttf
+          weight: 700
+    - family: SF
+      fonts:
+        - asset: assets/font/SF-Pro-Display-Regular.otf
+          weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/img/icon.jpg"
+
+flutter_launcher_name:
+  name: "Soy Experto"

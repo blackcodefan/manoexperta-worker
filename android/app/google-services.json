@@ -1,0 +1,115 @@
+{
+  "project_info": {
+    "project_number": "612887905952",
+    "firebase_url": "https://flutterme-60f5d.firebaseio.com",
+    "project_id": "flutterme-60f5d",
+    "storage_bucket": "flutterme-60f5d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:612887905952:android:4718cd3150cd349cca2bc5",
+        "android_client_info": {
+          "package_name": "com.manoexperta.clientf"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "612887905952-a3s1grtdt76fdgbucl3vtmt4864b0rf0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.manoexperta.clientf",
+            "certificate_hash": "6cbee121ff480a7eba9804e0c79b3e4deae19c2c"
+          }
+        },
+        {
+          "client_id": "612887905952-7ubcorglddchhnbnilk3vc4a6chh9s61.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.manoexperta.clientf",
+            "certificate_hash": "25093b93d8aec77612b3f414df50e3d07baad191"
+          }
+        },
+        {
+          "client_id": "612887905952-4qjrtg6e7ibn5th5j4c07hmkdnjusk3f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBl2sIEqPAstVV3gmM75A7YsYBkjsr4j7A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "612887905952-4qjrtg6e7ibn5th5j4c07hmkdnjusk3f.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "612887905952-r5v6png8dnfvijerr41v8nnvpfha2d4o.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.manoexperta.clientf"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:612887905952:android:4d02418d62bccf7cca2bc5",
+        "android_client_info": {
+          "package_name": "com.manoexperta.workerf"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "612887905952-6a9a400svrqdipjiic333f5he5od7i8g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.manoexperta.workerf",
+            "certificate_hash": "6cbee121ff480a7eba9804e0c79b3e4deae19c2c"
+          }
+        },
+        {
+          "client_id": "612887905952-ucihbkmqslpojssg7jf61jm04dlgttaa.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.manoexperta.workerf",
+            "certificate_hash": "25093b93d8aec77612b3f414df50e3d07baad191"
+          }
+        },
+        {
+          "client_id": "612887905952-4qjrtg6e7ibn5th5j4c07hmkdnjusk3f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBl2sIEqPAstVV3gmM75A7YsYBkjsr4j7A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "612887905952-4qjrtg6e7ibn5th5j4c07hmkdnjusk3f.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "612887905952-r5v6png8dnfvijerr41v8nnvpfha2d4o.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.manoexperta.clientf"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
